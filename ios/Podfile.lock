@@ -9,7 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - RealmSwift (~> 2.8.2)
-  - SnapKit
+  - SnapKit (~> 3.2.0)
   - SwiftProtobuf (~> 0.9.903)
 
 SPEC CHECKSUMS:
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftProtobuf: d7efc9bea9d3c3bdfc8f6664fe19ee5dc19c04a8
 
-PODFILE CHECKSUM: 4288f0300f2c1835080d88e836f2529d26bdf8f5
+PODFILE CHECKSUM: 843b4cab1d484cfbec3a82970675cfa3837f96e6
 
 COCOAPODS: 1.2.1
