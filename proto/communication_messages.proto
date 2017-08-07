@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "object_messages.proto";
+
+message CreateSharedCollectionRequest {
+  repeated Asset assets = 1;
+}
+
+message CreateSharedCollectionResponse {
+  SharedCollection collection = 1;
+}
