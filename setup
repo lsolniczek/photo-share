@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# remove old proto messages
+rm -rfv ./api/app/messages/*
+rm -rfv ./ios/photo-share/Messages/*
+
+# compile new proto models
+protoc --proto_path=proto --ruby_out=api/app/messages proto/*.proto
+protoc --proto_path=proto --swift_out=ios/photo-share/Messages proto/*.proto

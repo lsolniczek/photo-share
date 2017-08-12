@@ -25,6 +25,7 @@
 		B2EA39491F2D276F00C14040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EA39481F2D276F00C14040 /* Assets.xcassets */; };
 		B2EA394C1F2D276F00C14040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EA394A1F2D276F00C14040 /* LaunchScreen.storyboard */; };
 		B2EA39571F2D276F00C14040 /* photo_shareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA39561F2D276F00C14040 /* photo_shareTests.swift */; };
+		D608E65B1F3F444500CB5CF2 /* Messages in Resources */ = {isa = PBXBuildFile; fileRef = D608E65A1F3F444500CB5CF2 /* Messages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		B2EA39581F2D276F00C14040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C284CEF8409D51DD49EF122A /* Pods_photo_shareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_shareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FE6EBA30AF821BF9F1ADF4 /* Pods-photo-share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-share.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo-share/Pods-photo-share.debug.xcconfig"; sourceTree = "<group>"; };
+		D608E65A1F3F444500CB5CF2 /* Messages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Messages; path = "../../ios/photo-share/Messages"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,8 @@
 			children = (
 				B2DE8E131F2D29BA0087C01C /* AppCoordinator.swift */,
 			);
-			path = Coordinators;
+			name = Coordinators;
+			path = "../../ios/photo-share/Coordinators";
 			sourceTree = "<group>";
 		};
 		B2DE8E161F2D2ADE0087C01C /* UserCases */ = {
@@ -115,7 +118,8 @@
 				B2DE8E1A1F2D2C850087C01C /* Views */,
 				B2DE8E171F2D2ADE0087C01C /* Controllers */,
 			);
-			path = UserCases;
+			name = UserCases;
+			path = "../../ios/photo-share/UserCases";
 			sourceTree = "<group>";
 		};
 		B2DE8E171F2D2ADE0087C01C /* Controllers */ = {
@@ -194,6 +198,7 @@
 		B2EA39401F2D276F00C14040 /* photo-share */ = {
 			isa = PBXGroup;
 			children = (
+				D608E65A1F3F444500CB5CF2 /* Messages */,
 				B2DE8E161F2D2ADE0087C01C /* UserCases */,
 				B2DE8E121F2D29960087C01C /* Coordinators */,
 				B2EA39411F2D276F00C14040 /* AppDelegate.swift */,
@@ -313,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D608E65B1F3F444500CB5CF2 /* Messages in Resources */,
 				B2EA394C1F2D276F00C14040 /* LaunchScreen.storyboard in Resources */,
 				B2EA39491F2D276F00C14040 /* Assets.xcassets in Resources */,
 			);
